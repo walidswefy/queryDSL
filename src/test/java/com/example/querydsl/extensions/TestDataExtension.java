@@ -1,4 +1,4 @@
-package com.example.sampleapp.extensions;
+package com.example.querydsl.extensions;
 
 import com.mongodb.client.MongoCollection;
 import lombok.extern.slf4j.Slf4j;
@@ -62,7 +62,7 @@ public class TestDataExtension implements BeforeAllCallback, AfterAllCallback {
     }
 
     @Override
-    public void afterAll(ExtensionContext context) throws Exception {
+    public void afterAll(ExtensionContext context) {
         collection.deleteMany(new BsonDocument());
     }
 }

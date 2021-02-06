@@ -1,4 +1,4 @@
-package com.example.sampleapp.model;
+package com.example.querydsl.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

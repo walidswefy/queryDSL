@@ -1,4 +1,4 @@
-package com.example.sampleapp.security;
+package com.example.querydsl.security;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.stereotype.Component;

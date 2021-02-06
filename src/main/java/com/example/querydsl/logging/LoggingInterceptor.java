@@ -1,4 +1,4 @@
-package com.example.sampleapp.logging;
+package com.example.querydsl.logging;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

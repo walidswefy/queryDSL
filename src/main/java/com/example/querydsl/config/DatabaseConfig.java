@@ -1,4 +1,4 @@
-package com.example.sampleapp.config;
+package com.example.querydsl.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.EnableMongoAuditing;

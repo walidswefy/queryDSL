@@ -4,8 +4,8 @@ if (status.errmsg === 'no replset config has been received') {
 }
 for (var i = 1; i <= param; i++) {
   if (i !== 1)
-    rs.add(folder + "_sampleapplication-mongodb-node_" + i + ":27018");
+    rs.add(folder + "queryDSL-mongodb-node_" + i + ":27018");
 }
 var cfg = rs.conf();
-cfg.members[0].host = folder + "_sampleapplication-mongodb-node_1:27018";
+cfg.members[0].host = folder + "_queryDSL-mongodb-node_1:27018";
 rs.reconfig(cfg);

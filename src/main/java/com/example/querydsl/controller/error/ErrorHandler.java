@@ -1,4 +1,4 @@
-package com.example.sampleapp.controller.error;
+package com.example.querydsl.controller.error;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpHeaders;

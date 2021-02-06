@@ -1,6 +1,6 @@
-package com.example.sampleapp.config;
+package com.example.querydsl.config;
 
-import com.example.sampleapp.logging.LoggingInterceptor;
+import com.example.querydsl.logging.LoggingInterceptor;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

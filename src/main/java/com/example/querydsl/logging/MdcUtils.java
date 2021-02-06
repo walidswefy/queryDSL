@@ -1,4 +1,4 @@
-package com.example.sampleapp.logging;
+package com.example.querydsl.logging;
 
 import org.slf4j.MDC;
 

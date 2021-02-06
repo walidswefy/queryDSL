@@ -8,7 +8,7 @@
     <property name="MAX_HISTORY" value="30"/>
     <property name="MAX_FILE_SIZE" value="100MB"/>
 
-    <logger name="com.example.sampleapp" level="INFO"/>
+    <logger name="com.example.querydsl" level="INFO"/>
 
     <springProfile name="elk">
         <appender name="JSON" class="ch.qos.logback.core.ConsoleAppender">

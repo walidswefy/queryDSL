@@ -1,4 +1,4 @@
-package com.example.sampleapp.config;
+package com.example.querydsl.config;
 
 import org.springframework.boot.test.context.TestConfiguration;
 

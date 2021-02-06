@@ -1,7 +1,7 @@
-package com.example.sampleapp.config;
+package com.example.querydsl.config;
 
 
-import com.example.sampleapp.controller.KeyValueStoreController;
+import com.example.querydsl.controller.EmployeeController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
@@ -28,7 +28,7 @@ public class SwaggerConfig {
 
         return new Docket(DocumentationType.SWAGGER_2).useDefaultResponseMessages(false)
             .select()
-            .apis(RequestHandlerSelectors.basePackage(KeyValueStoreController.class.getPackage().getName()))
+            .apis(RequestHandlerSelectors.basePackage(EmployeeController.class.getPackage().getName()))
             .paths(PathSelectors.any())
             .build().apiInfo(apiInfoBuilder.build());
     }
